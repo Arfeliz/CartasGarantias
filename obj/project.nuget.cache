@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6hSOjpS6vQQ=",
+  "success": true,
+  "projectFilePath": "D:\\Aplicaciones(desarrollo)\\CartasGarantias\\CartasGarantias.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\feliz\\.nuget\\packages\\questpdf\\2025.12.2\\questpdf.2025.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}
