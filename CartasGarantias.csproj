@@ -11,5 +11,10 @@
   <ItemGroup>
     <PackageReference Include="QuestPDF" Version="2025.12.2" />
   </ItemGroup>
+  <ItemGroup>
+  <None Update="logo_jumbo.png">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
 
 </Project>

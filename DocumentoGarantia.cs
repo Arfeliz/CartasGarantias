@@ -102,7 +102,7 @@ namespace GeneradorGarantia
                         // En versiones nuevas de QuestPDF, se usa LineColor dentro de la decoración
                         col.Item().Width(200).PaddingBottom(2).BorderBottom(1).BorderColor(Colors.Black).Height(1);
                         
-                        col.Item().PaddingTop(2).Text(data.FirmaNombre ?? "").SemiBold();
+                        col.Item().PaddingTop(2).Text(data.FirmaNombre ?? "");
                         col.Item().Text("Departamento de Electrodomésticos").FontSize(9);
                         col.Item().Text("Jumbo Luperón (806)").FontSize(9);
                         col.Item().Text("Tel. 809-333-1111 EXT.3520").FontSize(9);
