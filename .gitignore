@@ -1,0 +1,19 @@
+Pruebas
+# --- Directorios de Compilación (.NET) ---
+bin/
+obj/
+
+# --- Archivos generados por VS Code / Visual Studio ---
+.vscode/
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Archivos generados por la Aplicación ---
+# Evita que las cartas de garantía reales se suban al repositorio
+*.pdf
+
+# --- Archivos de sistema ---
+[Dd]s.[Ss]tore
+Thumbs.db

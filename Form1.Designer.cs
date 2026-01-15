@@ -74,8 +74,8 @@
             this.txtModelo = CreateStyledField("Modelo:", ref startY, spacing);
             this.txtMarca = CreateStyledField("Marca:", ref startY, spacing);
             this.txtSerie = CreateStyledField("Serie:", ref startY, spacing);
-            this.txtFirma = CreateStyledField("Firma (Nombre):", ref startY, spacing);
             this.txtObservacion = CreateStyledField("Observación:", ref startY, spacing);
+            this.txtFirma = CreateStyledField("Firma (Nombre):", ref startY, spacing);
 
             // --- BOTÓN GENERAR CON MARGIN TOP ---
             startY += 30; // Este es el MARGIN TOP extra para el botón
@@ -102,7 +102,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Jumbo - Gestión de Garantías";
+            this.Text = "Jumbo - Maquetador de Carta Garantia";
 
             this.ResumeLayout(false);
             this.PerformLayout();
